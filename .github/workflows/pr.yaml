@@ -15,5 +15,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - run: ./gradlew clean build
+      - run: ./gradlew build
+      - run: ./gradlew test -i
+
 
